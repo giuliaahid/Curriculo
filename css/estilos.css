@@ -20,26 +20,64 @@ width: 80%;
 justify-content: space-between;
 align-items: center;
 
+
 }
 
 .informacoes img {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+
 
 }
 .info-contatos{
     display: flex;
-    align-items: center
+    align-items: center;
+    
 
 }
 
 .redes-sociais {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-left: ;
+    
 }
 
 .redes-sociais a:hover {
  color: red;
 font-weight: bold
+}
+
+.contatos {
+    background: yellow;
+    width: 300px;
+    height: 100px;
+    font-size: 12px;
+    border-radius: 300px;
+    align-items: center;
+    
+
+}
+.Minhasexperiencias {
+    margin-bottom: 30px;
+    background: black;
+    color: white;
+    border-radius: 300px;
+    margin: 30px;
+}
+.eu {
+    margin-top: 30px
+}
+main {
+border: 5px solid black;
+margin-left: 30px;
+margin-right: 30px;
+
+}
+
+.contatostop {
+    text-align: center;
 }
 
